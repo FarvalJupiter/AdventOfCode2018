@@ -4,9 +4,10 @@ namespace AdventOfCode2018
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var sum = December12.SecondPart();
+            Console.WriteLine(sum);
         }
     }
 }
